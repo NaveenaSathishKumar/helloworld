@@ -13,13 +13,13 @@
          <repository>
          <id>jfrog</id>
          <name>Sample-release</name>
-         <url>https://ansibledemo123.jfrog.io/artifactory/AnsibleDemoRelease/</url>
+         <url>https://ansibledemo123.jfrog.io/artifactory/helloworld/</url>
         </repository>
 
 <snapshotRepository>
 <id>jfrog</id>
 <name>Sample-snapshot</name>
-<url>https://ansibledemo123.jfrog.io/artifactory/AnsibleDemoRelease/</url>
+<url>https://ansibledemo123.jfrog.io/artifactory/helloworld/</url>
 </snapshotRepository>
 </distributionManagement>
 
