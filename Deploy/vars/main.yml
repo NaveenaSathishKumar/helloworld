@@ -1,4 +1,0 @@
----
-# vars_files for tomcat deployment
-  vars_files:
-    - /Deploy/vars/demo.yml
