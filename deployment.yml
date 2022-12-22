@@ -1,0 +1,37 @@
+---
+apiVersion: v1
+kind: Deployment
+metadata:
+  name: eksdemo-deployment
+  labels:
+    app: eksdemo
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: eksdemo
+  template:
+    metadata:
+      labels:
+        app: eksdemo
+    spec:
+      containers:
+      - name: eksdemo
+        image: eksdemo:1.1.0
+        ports:
+        - containerPort: 8080
+---
+# Node Port Service
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    name: eksdemo
+  name: eksdemo
+spec:
+  type: NodePort
+  ports:
+    - port: 8080
+      targetPort: 8080
+  selector:
+    name: eksdemo
