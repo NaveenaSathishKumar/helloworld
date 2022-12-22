@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: Deployment
 metadata:
-  name: eksdemo-deployment
+  name: eksdemo
   labels:
     app: eksdemo
 spec:
