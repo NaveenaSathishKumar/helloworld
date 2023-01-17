@@ -13,7 +13,7 @@
          <repository>
          <id>jfrog</id>
          <name>Sample-release</name>
-         <url>https://nsdemo.jfrog.io/ui/native/nsdemo/</url>
+         <url>https://nsdemo.jfrog.io/artifactory/nsdemo/</url>
         </repository>
 
 <snapshotRepository>
