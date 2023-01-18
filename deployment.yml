@@ -3,6 +3,7 @@ apiVersion: apps/v1beta1
 kind: Deployment
 metadata:
   name: eksdemo-deployment
+  namespace: default
   labels:
     app: eksdemo
 spec:
