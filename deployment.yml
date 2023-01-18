@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: eksdemo
-        image: naveenasathishkumar/eksdemo:latest
+        image: public.ecr.aws/f4k7f0q5/nsecr:latest
         ports:
         - containerPort: 8080
         
