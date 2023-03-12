@@ -13,13 +13,13 @@
          <repository>
          <id>nexus</id>
          <name>Sample-release</name>
-         <url>http://43.204.232.88:8081/repository/argosnap/</url>
+		 <url>http://43.204.232.88:8081/repository/argocd/url>
         </repository>
 
 <snapshotRepository>
-<id>jfrog</id>
+<id>nexus</id>
 <name>Sample-snapshot</name>
-<url>https://ansibledemo123.jfrog.io/artifactory/helloworld/</url>
+<url>http://43.204.232.88:8081/repository/argosnap/</url>
 </snapshotRepository>
 </distributionManagement>
 
