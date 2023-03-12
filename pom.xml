@@ -11,9 +11,9 @@
 	<distributionManagement>
 
          <repository>
-         <id>jfrog</id>
+         <id>nexus</id>
          <name>Sample-release</name>
-         <url>https://nsdemo.jfrog.io/artifactory/nsdemo/</url>
+         <url>http://43.204.232.88:8081/repository/argocd/</url>
         </repository>
 
 <snapshotRepository>
