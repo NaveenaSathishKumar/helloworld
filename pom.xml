@@ -13,7 +13,7 @@
          <repository>
          <id>nexus</id>
          <name>Sample-release</name>
-		 <url>http://43.204.232.88:8081/repository/argocd/url>
+		 <url>http://43.204.232.88:8081/repository/argocd/</url>
         </repository>
 
 <snapshotRepository>
